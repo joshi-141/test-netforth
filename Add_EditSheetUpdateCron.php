@@ -4,7 +4,7 @@ include_once ($_SERVER['DOCUMENT_ROOT'] . '/classes/Listing.class.php');
 include_once ($_SERVER['DOCUMENT_ROOT'] . '/saffronstaysSheet/quickstartNew.php');  
 ini_set('date.timezone', 'Europe/Lisbon');
 ini_set('intl.default_locale', 'es_ES');
-$values = [];
+
 
 $emailToSearch = 'host@saffronstays.com';
  $where=" AND L.FEATURED ='true'  AND L.APPROVAL_STATUS='A' AND L.STATUS='L' "; 
